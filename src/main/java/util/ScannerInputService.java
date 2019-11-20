@@ -1,6 +1,7 @@
 package util;
 
 import org.springframework.stereotype.Component;
+
 import java.util.Scanner;
 
 @Component
@@ -10,7 +11,7 @@ public class ScannerInputService implements UserInputService {
 
     //TODO: P2-
     public String getString() {
-        return null;
+        return "Return";
     }
 
     public int getInt() {

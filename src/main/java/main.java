@@ -1,13 +1,13 @@
-import config.ComponentScanConfig;
-import data_access.StudentDao;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class main {
 
     public static void main(String[] args) {
 
-        AnnotationConfigApplicationContext context= new AnnotationConfigApplicationContext(ComponentScanConfig.class);
-        StudentDao studentDao = context.getBean(StudentDao.class);
+      AnnotationConfigApplicationContext context= new AnnotationConfigApplicationContext(ApplicationContext.class);
+
+
 
         //TODO P2- test dependency injection by adding bean when scanner bean is done
         /*Scannerbean, a Scanner object should be ready to be injected using Constructor-injection,
