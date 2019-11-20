@@ -1,11 +1,6 @@
 package models;
 
-
-import org.springframework.stereotype.Component;
-
-@Component
 public class Student {
-
     private int id;
     private String name;
 
@@ -46,4 +41,6 @@ public class Student {
         result = 31 * result + (name != null ? name.hashCode() : 0);
         return result;
     }
+
 }
+
