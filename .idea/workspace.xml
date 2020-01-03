@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -107,5 +110,9 @@
       <screen x="1600" y="86" width="1920" height="1040" />
     </state>
     <state x="2376" y="385" key="chooseDestDirectoryDialog/0.0.1600.860/1600.86.1920.1040@1600.86.1920.1040" timestamp="1578058713094" />
+    <state x="495" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1578059550822">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="495" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.86.1920.1040@0.0.1600.860" timestamp="1578059550822" />
   </component>
 </project>
