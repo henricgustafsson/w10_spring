@@ -1,10 +1,8 @@
-package se.lexicon.henric;
+package se.lexicon.henric.config;
 
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 
 import java.util.Scanner;
 
@@ -12,7 +10,7 @@ import java.util.Scanner;
 public class UserInputServiceConfig {
 
      @Bean
-     public Scanner scannerBean(){
+     public Scanner scanner(){
           Scanner scanner = new Scanner(System.in);
           return  scanner;
      }
