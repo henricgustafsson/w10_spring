@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>se.lexicon.henric</groupId>
-	<artifactId>10Spring</artifactId>
+	<artifactId>Spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>10Spring</name>
 	<description>Demo project for Spring Boot</description>
